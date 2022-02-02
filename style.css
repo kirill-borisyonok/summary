@@ -1,0 +1,308 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+}
+
+/*Header
+==============================*/
+.header {
+    margin-bottom: 2rem;
+    padding-top: 4rem;
+    border-top: .7rem solid blue;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+
+    padding-bottom: 1rem;
+
+    border-bottom: .1rem solid #b8c1c1;
+}
+
+.header__photo {
+    width: 30%;
+}
+
+.header__img {
+    padding: .3rem;
+    width: 200px;
+    height: 200px;
+
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.header__description {
+    padding-left: 4rem;
+}
+
+.header__description-title {
+    margin-bottom: 4.5rem;
+
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.header__description-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/*Inform
+==============================*/
+.inform__col {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.inform__col-left {
+    width: 30%;
+}
+
+.inform__titile {
+    margin-bottom: 1.2rem;
+
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.inform__contact--item {
+    display: flex;
+    margin-bottom: 1.2rem;
+}
+
+.icon__item {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 18px;
+    
+    margin-right: 4px;
+    
+    transition: background .1s linear;
+}
+
+.icon__img {
+    display: block;
+    fill: blue;
+    
+    height: 18px;
+    
+    transition: transform .2s linear;
+}
+
+.icon__img:hover {
+    transform: scale(1.2);
+}
+
+.inform__contact--text {
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.inform__contact--text:hover {
+    text-decoration: underline;
+}
+
+.inform__img {
+    margin-left: -25px;
+    height: 50px;
+}
+
+.inform__col-right {
+    width: 70%;
+    text-align: center;
+    
+}
+
+.inform__right--high {
+    display: flex;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.inform__img {
+    margin-right: 2rem;
+}
+
+.inform__title {
+    position: relative;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.inform__title:after {
+    display: block;
+    width:650px;
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid rgb(131, 128, 128);
+    top:50%;
+    left: 250px; 
+}
+
+.inform__main {
+    margin-top: -3px;
+    display: flex;
+    border-left: 4px solid black;
+}
+
+.inform__main--left {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inform__date--high {
+    margin-top: 4.1rem;
+    padding-left: 3.2rem;
+
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+    color: blue;
+
+    border-bottom: 5px solid black;
+}
+
+.inform__date--high--long {
+    padding-left: 2rem;
+}
+
+.inform__date--law {
+    margin-bottom: 4.1rem;
+    padding-left: 3.2rem;
+
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+    color: blue;
+}
+
+.inform__main--right {
+    width: 90%;
+    text-align: left;
+}
+
+.item__name {
+    margin-top: 4.1rem;
+    padding-left: 3rem;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.item__text {
+    margin-top: .6rem;
+    padding-left: 3rem;
+
+    font-size: .9rem;
+    font-weight: 300;
+
+    line-height: 1.5rem;
+}
+
+.inform__about {
+    line-height: 1.5;
+}
+
+/*Progress
+===========================*/
+.progress-bar {
+    margin-bottom: 2.6rem;
+}
+
+.progress-bar--right {
+    margin-top: 4.1rem;
+    padding-left: 3rem;
+}
+
+.progress-bar__item {
+    margin-bottom: 0.3rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar__item--right {
+    width: 350px;
+}
+
+.progress-bar__title {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+.progress-bar__right {
+    width: 50%;
+    padding-left: 1.2rem;
+}
+
+.progress-bar__left {
+    width: 50%;
+}
+
+.progress-bar__bar {
+    width: 139px;
+    height: 15px;
+    background-color: rgb(216, 213, 213);
+}
+
+.progress-bar__progress {
+    height: 100%;
+
+    background-color: blue;
+}
+
+/*Footer
+===========================*/
+
+.footer {
+    padding: 1rem 0;
+    background-color: blue;
+}
+
+.footer__inner {
+    text-align: center;
+}
+
+.footer__copyright {
+    padding-right: .8rem;
+    margin-right: 1rem;
+
+    font-size: .94rem;
+    color: #BBBBCC;
+}
